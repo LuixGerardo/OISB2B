@@ -1,0 +1,15 @@
+C:\Users\LUIX\source\repos\OISB2B\OISB2B\OISB2B\bin\Debug\netstandard2.0\OISB2B.deps.json
+C:\Users\LUIX\source\repos\OISB2B\OISB2B\OISB2B\bin\Debug\netstandard2.0\OISB2B.dll
+C:\Users\LUIX\source\repos\OISB2B\OISB2B\OISB2B\bin\Debug\netstandard2.0\ref\OISB2B.dll
+C:\Users\LUIX\source\repos\OISB2B\OISB2B\OISB2B\bin\Debug\netstandard2.0\OISB2B.pdb
+C:\Users\LUIX\source\repos\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\OISB2B.csproj.AssemblyReference.cache
+C:\Users\LUIX\source\repos\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\OISB2B.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LUIX\source\repos\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\LUIX\source\repos\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\Pages\LoginPage.xaml.g.cs
+C:\Users\LUIX\source\repos\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\OISB2B.AssemblyInfoInputs.cache
+C:\Users\LUIX\source\repos\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\OISB2B.AssemblyInfo.cs
+C:\Users\LUIX\source\repos\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\OISB2B.csproj.CoreCompileInputs.cache
+C:\Users\LUIX\source\repos\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\LUIX\source\repos\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\OISB2B.dll
+C:\Users\LUIX\source\repos\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\ref\OISB2B.dll
+C:\Users\LUIX\source\repos\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\OISB2B.pdb

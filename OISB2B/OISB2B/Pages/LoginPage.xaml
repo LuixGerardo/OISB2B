@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OISB2B.Pages.LoginPage"
+             BackgroundColor="#White">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#e6e6e6">
+            <Grid>
+                <StackLayout Padding="0" Margin="0" HorizontalOptions="FillAndExpand">
+                    <Frame HeightRequest="300" BackgroundColor="#C22200" Padding="0" Margin="0">
+                        
+                    </Frame>
+                </StackLayout>
+                <StackLayout Padding="0" Margin="10,80,10,0" HorizontalOptions="FillAndExpand">
+                    <Frame  BackgroundColor="White" HeightRequest="525" HasShadow="True" Padding="0" Margin="0" BorderColor="Red" CornerRadius="40">
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,20,0,0">
+                                <Image Source="Login.png" HeightRequest="250"/>
+                            </StackLayout>
+
+                            <StackLayout Padding="0" Margin="15,10">
+
+                                <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                            <Image Source="@drawable/User.png" Aspect="AspectFill" Margin="0"/>
+                                        </Frame>
+                                        <Entry Placeholder="Email or Username" TextColor="Black" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" PlaceholderColor="#bababa" FontSize="20" Margin="10,0,60,0"/>
+                                    </StackLayout>
+                                </Frame>
+
+                                <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Margin="0,15,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+                                            <Image Source="@drawable/Pass.png" Aspect="AspectFill" Margin="0"/>
+                                        </Frame>
+                                        <Entry Placeholder="Password" TextColor="Black" IsPassword="True" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" PlaceholderColor="#bababa" FontSize="20" Margin="10,0,60,0"/>
+                                    </StackLayout>
+                                </Frame>
+
+                                <Button Text="Login" BackgroundColor="White" BorderColor="#C22200" BorderWidth="2" TextColor="#C22200" FontSize="20" CornerRadius="40" HeightRequest="50" Grid.Row="4" Margin="0,20,0,0"/>
+
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
