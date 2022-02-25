@@ -7,9 +7,7 @@
         <StackLayout BackgroundColor="#e6e6e6">
             <Grid>
                 <StackLayout Padding="0" Margin="0" HorizontalOptions="FillAndExpand">
-                    <Frame HeightRequest="300" BackgroundColor="#C22200" Padding="0" Margin="0">
-                        
-                    </Frame>
+                    <Frame HeightRequest="300" BackgroundColor="#C22200" Padding="0" Margin="0"/>
                 </StackLayout>
                 <StackLayout Padding="0" Margin="10,80,10,0" HorizontalOptions="FillAndExpand">
                     <Frame  BackgroundColor="White" HeightRequest="525" HasShadow="True" Padding="0" Margin="0" BorderColor="Red" CornerRadius="40">
@@ -25,7 +23,7 @@
                                         <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
                                             <Image Source="@drawable/User.png" Aspect="AspectFill" Margin="0"/>
                                         </Frame>
-                                        <Entry Placeholder="Email or Username" TextColor="Black" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" PlaceholderColor="#bababa" FontSize="20" Margin="10,0,60,0"/>
+                                        <Entry Placeholder="{Binding User}" TextColor="Black" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" PlaceholderColor="#606060" FontSize="20" Margin="10,0,60,0"/>
                                     </StackLayout>
                                 </Frame>
 
@@ -34,11 +32,11 @@
                                         <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
                                             <Image Source="@drawable/Pass.png" Aspect="AspectFill" Margin="0"/>
                                         </Frame>
-                                        <Entry Placeholder="Password" TextColor="Black" IsPassword="True" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" PlaceholderColor="#bababa" FontSize="20" Margin="10,0,60,0"/>
+                                        <Entry Placeholder="{Binding Pass}" TextColor="Black" IsPassword="True" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" PlaceholderColor="#606060" FontSize="20" Margin="10,0,60,0"/>
                                     </StackLayout>
                                 </Frame>
 
-                                <Button Text="Login" BackgroundColor="White" BorderColor="#C22200" BorderWidth="2" TextColor="#C22200" FontSize="20" CornerRadius="40" HeightRequest="50" Grid.Row="4" Margin="0,20,0,0"/>
+                                <Button Text="{Binding BtnLogin}" BackgroundColor="White" BorderColor="#C22200" BorderWidth="2" TextColor="#C22200" FontSize="20" CornerRadius="40" HeightRequest="50" Grid.Row="4" Margin="0,20,0,0"/>
 
                             </StackLayout>
                         </StackLayout>
