@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OISB2B.PageModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,7 @@ namespace OISB2B.Pages
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+            BindingContext = new LoginPageModel();
         }
     }
 }

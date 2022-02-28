@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LUIX\\source\\repos\\OISB2B\\OISB2B\\OISB2B\\OISB2B.csproj": {}
+    "d:\\Users\\LUIX\\Documents\\GitHub\\OISB2B\\OISB2B\\OISB2B\\OISB2B.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LUIX\\source\\repos\\OISB2B\\OISB2B\\OISB2B\\OISB2B.csproj": {
+    "d:\\Users\\LUIX\\Documents\\GitHub\\OISB2B\\OISB2B\\OISB2B\\OISB2B.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LUIX\\source\\repos\\OISB2B\\OISB2B\\OISB2B\\OISB2B.csproj",
+        "projectUniqueName": "d:\\Users\\LUIX\\Documents\\GitHub\\OISB2B\\OISB2B\\OISB2B\\OISB2B.csproj",
         "projectName": "OISB2B",
-        "projectPath": "C:\\Users\\LUIX\\source\\repos\\OISB2B\\OISB2B\\OISB2B\\OISB2B.csproj",
+        "projectPath": "d:\\Users\\LUIX\\Documents\\GitHub\\OISB2B\\OISB2B\\OISB2B\\OISB2B.csproj",
         "packagesPath": "C:\\Users\\LUIX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LUIX\\source\\repos\\OISB2B\\OISB2B\\OISB2B\\obj\\",
+        "outputPath": "d:\\Users\\LUIX\\Documents\\GitHub\\OISB2B\\OISB2B\\OISB2B\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -49,11 +49,23 @@
               "target": "Package",
               "version": "[4.0.1, )"
             },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Xam.Plugin.DeviceInfo": {
+              "target": "Package",
+              "version": "[4.1.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
