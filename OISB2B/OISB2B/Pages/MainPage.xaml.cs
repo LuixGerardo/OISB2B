@@ -1,5 +1,4 @@
-﻿using OISB2B.PageModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,14 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace OISB2B.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LoginPage : ContentPage
+    public partial class MainPage : ContentPage
     {
-        public LoginPage()
+        public MainPage()
         {
             InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
-            BindingContext = new LoginPageModel();
-            
         }
     }
 }

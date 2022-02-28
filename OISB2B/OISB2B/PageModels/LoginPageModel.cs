@@ -14,25 +14,55 @@ namespace OISB2B.PageModels
 {
     class LoginPageModel : FreshBasePageModel
     {
-        public string UserEntry { get; set; }
-        public string PassEntry { get; set; }
+        #region Parameter
+        public string UserEntry { get; set; } = "";
+        public string PassEntry { get; set; } = "";
         public string LoginBtnText { get; set; } = "LOGIN";
         public string UserText { get; set; } = "Email or Username";
         public string PassText { get; set; } = "Password";
-
-        string token = "";
-
         public Command GoToPageCommand { get; set; }
+
+        #endregion
 
         public LoginPageModel()
         {
+            #region BtnLogin
             GoToPageCommand = new Command(() =>
             {
-                token = RestApi.Token(UserEntry, PassEntry);
-                //token = await RestApi.Token2Async(UserEntry, PassEntry);
-                Debug.WriteLine(token);
-                //CoreMethods.PushPageModel<LoginPageModel>();
+                string PreferenceTokenKey = Preferences.Get("TokenGenerated", string.Empty); //Token Preference
+
+                if (UserEntry == string.Empty | PassEntry == string.Empty)
+                {
+                    Application.Current.MainPage.DisplayAlert("Error", "Required fields", "OK");
+                }
+                else
+                {
+                    if (PreferenceTokenKey == string.Empty)
+                    {
+                        PreferenceTokenKey = RestApi.Token(UserEntry, PassEntry);
+                        //TokenKey = await RestApi.Token2Async(UserEntry, PassEntry);                          
+                    }
+
+                    if (PreferenceTokenKey != string.Empty)
+                    {
+                        string LoginUser = Preferences.Get("LoginUser", string.Empty); //LoginUser Preference
+                        string LoginPass = Preferences.Get("LoginPass", string.Empty); //LoginPass Preference
+
+                        var Status = RestApi.Servicio();
+                        if (Status != null & UserEntry == LoginUser & PassEntry == LoginPass)
+                        {
+                            Application.Current.MainPage.DisplayAlert("Welcome", Status, "OK");
+                            CoreMethods.PushPageModel<MainPageModel>();
+                        }
+                        else
+                        {
+                            Preferences.Clear();                            
+                            Application.Current.MainPage.DisplayAlert("Error", "Invalid Credentials", "OK");
+                        }
+                    }
+                }
             });
+            #endregion
         }
     }
 }

@@ -28,3 +28,4 @@ d:\Users\LUIX\Documents\GitHub\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\Xam
 d:\Users\LUIX\Documents\GitHub\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\OISB2B.dll
 d:\Users\LUIX\Documents\GitHub\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\ref\OISB2B.dll
 d:\Users\LUIX\Documents\GitHub\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\OISB2B.pdb
+d:\Users\LUIX\Documents\GitHub\OISB2B\OISB2B\OISB2B\obj\Debug\netstandard2.0\Pages\MainPage.xaml.g.cs
